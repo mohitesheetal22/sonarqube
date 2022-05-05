@@ -9,7 +9,7 @@ pipeline{
                 git 'https://github.com/ravdy/javaloginapp.git'
             }
          }        
-       stage('Build'){
+       stage('Build done'){
             steps{
                 sh 'mvn clean package'
             }
